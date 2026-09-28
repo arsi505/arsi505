@@ -8,13 +8,21 @@
   Backend Systems · Real-Time Software · Software Reliability
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Software-Engineering-2563EB?style=flat-square" alt="Software Engineering">
+  <img src="https://img.shields.io/badge/Open-Source-2E7D32?style=flat-square" alt="Open Source">
+  <img src="https://img.shields.io/badge/Graduate-Study-6B4FB3?style=flat-square" alt="Graduate Study">
+</p>
+
 ---
 
-## About Me
+## ◇ About Me
 
 I build software systems to explore real engineering problems in concurrency, systems programming, backend architecture, and reliability.
 
-## Core Skills
+I am also strengthening my academic foundations in preparation for graduate study.
+
+## ◇ Core Skills
 
 - **Languages:** TypeScript, C++
 - **Software Engineering:** Backend Development, REST APIs, Database Design, Authentication & Authorization, Real-Time Systems, Automated Testing
@@ -22,7 +30,7 @@ I build software systems to explore real engineering problems in concurrency, sy
 
 ---
 
-## Featured Engineering Projects
+## ◆ Featured Engineering Projects
 
 ### 01 / [RealTimeCollab](https://github.com/arsi505/RealTimeCollab)
 
@@ -40,6 +48,8 @@ A full-stack collaborative workspace built to explore consistent shared state, c
 >
 > **Engineering focus** · Real-time systems, concurrency control, authorization, transactional consistency, reconnect and resynchronization
 
+---
+
 ### 02 / [ArsiShell](https://github.com/arsi505/ArsiShell)
 
 **Process execution, IPC, and shell mechanics in C++**
@@ -55,6 +65,8 @@ A C++17 command-line shell and process manager built to apply operating-system a
 > **Stack** · C++17, CMake, Win32 APIs, POSIX process APIs, Python test harnesses
 >
 > **Engineering focus** · Process creation, IPC, file descriptors and handles, parsing, job management, resource cleanup
+
+---
 
 ### 03 / [Reloop](https://github.com/arsi505/Reloop)
 
@@ -76,9 +88,11 @@ A reliability and recovery system for detecting and handling inconsistent order 
 
 ---
 
-## Current Direction
+## ↗ Graduate Study Direction
 
-Areas I am actively studying:
+I am currently preparing for Master's applications in Software Engineering and related areas while strengthening my academic and engineering foundations.
+
+My academic interests include:
 
 - Software Architecture
 - Distributed Systems
@@ -86,7 +100,9 @@ Areas I am actively studying:
 - Intelligent Software Systems
 - Applied Generative AI
 
-## Education
+I am developing these areas through structured study and practical engineering projects.
+
+## ◇ Education
 
 **Sichuan University**\
 Bachelor's in Software Engineering\
