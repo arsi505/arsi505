@@ -24,19 +24,23 @@ I am also strengthening my academic foundations in preparation for graduate stud
 
 ## ◇ Core Skills
 
-- **Languages:** TypeScript, C++
-- **Software Engineering:** Backend Development, REST APIs, Database Design, Authentication & Authorization, Real-Time Systems, Automated Testing
-- **Technologies:** Node.js, NestJS, Next.js, PostgreSQL, Prisma, Redis, Socket.IO
-
----
+| Area | Focus |
+| --- | --- |
+| **Languages** | TypeScript · C++ |
+| **Software Engineering** | Backend Development · REST APIs · Database Design · Authentication & Authorization · Real-Time Systems · Automated Testing |
+| **Technologies** | Node.js · NestJS · Next.js · PostgreSQL · Prisma · Redis · Socket.IO |
 
 ## ◆ Featured Engineering Projects
 
-### 01 / [RealTimeCollab](https://github.com/arsi505/RealTimeCollab)
+### 01 / RealTimeCollab
 
 **Real-time collaboration with durable shared state**
 
 A full-stack collaborative workspace built to explore consistent shared state, concurrent editing, and real-time coordination.
+
+[View Repository →](https://github.com/arsi505/RealTimeCollab)
+
+**Key Engineering Work**
 
 - Uses REST for state changes, PostgreSQL and Prisma for durable data, and Socket.IO for committed-update notifications.
 - Protects document edits with version-based optimistic concurrency control and explicit conflict responses.
@@ -44,17 +48,21 @@ A full-stack collaborative workspace built to explore consistent shared state, c
 - Provides JWT authentication, Argon2 password hashing, workspace roles, rooms, documents, comments, and transactional activity history.
 - Includes unit and end-to-end tests for access control, concurrency, real-time synchronization, presence, and multi-server behavior.
 
-> **Stack** · TypeScript, Next.js, React, NestJS, PostgreSQL, Prisma, Redis, Socket.IO, Vitest
->
-> **Engineering focus** · Real-time systems, concurrency control, authorization, transactional consistency, reconnect and resynchronization
+**Stack:** `TypeScript` · `Next.js` · `React` · `NestJS` · `PostgreSQL` · `Prisma` · `Redis` · `Socket.IO` · `Vitest`
+
+**Engineering focus:** Real-time systems, concurrency control, authorization, transactional consistency, reconnect and resynchronization
 
 ---
 
-### 02 / [ArsiShell](https://github.com/arsi505/ArsiShell)
+### 02 / ArsiShell
 
 **Process execution, IPC, and shell mechanics in C++**
 
 A C++17 command-line shell and process manager built to apply operating-system and systems-programming concepts.
+
+[View Repository →](https://github.com/arsi505/ArsiShell)
+
+**Key Engineering Work**
 
 - Implements a staged tokenizer and parser with quoted arguments and syntax validation.
 - Supports multi-stage pipelines plus input, overwrite, and append redirection.
@@ -62,17 +70,21 @@ A C++17 command-line shell and process manager built to apply operating-system a
 - Persists command history and supports `!!` and `!n` expansion across sessions.
 - Provides Win32 and POSIX execution paths; the automated runtime and handle-cleanup tests target Windows 11.
 
-> **Stack** · C++17, CMake, Win32 APIs, POSIX process APIs, Python test harnesses
->
-> **Engineering focus** · Process creation, IPC, file descriptors and handles, parsing, job management, resource cleanup
+**Stack:** `C++17` · `CMake` · `Win32 APIs` · `POSIX process APIs` · `Python test harnesses`
+
+**Engineering focus:** Process creation, IPC, file descriptors and handles, parsing, job management, resource cleanup
 
 ---
 
-### 03 / [Reloop](https://github.com/arsi505/Reloop)
+### 03 / Reloop
 
 **Failure-aware workflows for cross-system consistency**
 
 A reliability and recovery system for detecting and handling inconsistent order state across e-commerce integrations.
+
+[View Repository →](https://github.com/arsi505/Reloop)
+
+**Key Engineering Work**
 
 - Ingests signed provider events with durable deduplication, then reconciles normalized cross-system state into recovery cases.
 - Coordinates work through Redis Streams while keeping jobs, attempts, leases, workflows, approvals, and audit records in PostgreSQL.
@@ -80,25 +92,20 @@ A reliability and recovery system for detecting and handling inconsistent order 
 - Executes dependency-aware recovery workflows with human approval gates and verification before a case can be resolved.
 - Exposes tenant-scoped REST APIs, operational dashboards, infrastructure health checks, and real-time invalidation events.
 
-> **Stack** · TypeScript, Node.js, NestJS, Next.js, React, PostgreSQL, Prisma, Redis Streams, Socket.IO, Jest
->
-> **Engineering focus** · Reliability patterns, idempotency, distributed work coordination, recovery workflows, tenant isolation, observability
+**Stack:** `TypeScript` · `Node.js` · `NestJS` · `Next.js` · `React` · `PostgreSQL` · `Prisma` · `Redis Streams` · `Socket.IO` · `Jest`
 
-> Reloop's V1 recovery writes are simulator-backed. Its Shopify and ShipStation integrations are intentionally read-only.
+**Engineering focus:** Reliability patterns, idempotency, distributed work coordination, recovery workflows, tenant isolation, observability
 
----
+> **Note:** Reloop's V1 recovery writes are simulator-backed. Its Shopify and ShipStation integrations are intentionally read-only.
 
 ## ↗ Graduate Study Direction
 
 I am currently preparing for Master's applications in Software Engineering and related areas while strengthening my academic and engineering foundations.
 
-My academic interests include:
+**Academic interests**
 
-- Software Architecture
-- Distributed Systems
-- Software Reliability
-- Intelligent Software Systems
-- Applied Generative AI
+`Software Architecture` · `Distributed Systems` · `Software Reliability`  
+`Intelligent Software Systems` · `Applied Generative AI`
 
 I am developing these areas through structured study and practical engineering projects.
 
