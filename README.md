@@ -26,9 +26,9 @@ I am also strengthening my academic foundations in preparation for Master's stud
 
 | Area | Focus |
 | --- | --- |
-| **Languages** | <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> |
+| **Languages** | `TypeScript` · `C++` · `Python` |
 | **Software Engineering** | Backend Development · REST APIs · Database Design · Authentication & Authorization · Real-Time Systems · Automated Testing |
-| **Technologies** | Node.js · NestJS · Next.js · PostgreSQL · Prisma · Redis · Socket.IO |
+| **Technologies** | `Node.js` · `NestJS` · `Next.js` · `PostgreSQL` · `Prisma` · `Redis` · `Socket.IO` |
 
 ## ◆ Featured Engineering Projects
 
