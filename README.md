@@ -11,7 +11,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Software-Engineering-2563EB?style=flat-square" alt="Software Engineering">
   <img src="https://img.shields.io/badge/Open-Source-2E7D32?style=flat-square" alt="Open Source">
-  <img src="https://img.shields.io/badge/Graduate-Study-6B4FB3?style=flat-square" alt="Graduate Study">
+  <img src="https://img.shields.io/badge/Master%27s-Study-6B4FB3?style=flat-square" alt="Master's Study">
 </p>
 
 ---
@@ -20,7 +20,7 @@
 
 I build software systems to explore real engineering problems in concurrency, systems programming, backend architecture, and reliability.
 
-I am also strengthening my academic foundations in preparation for graduate study.
+I am also strengthening my academic foundations in preparation for Master's study.
 
 ## ◇ Core Skills
 
@@ -98,7 +98,7 @@ A reliability and recovery system for detecting and handling inconsistent order 
 
 > **Note:** Reloop's V1 recovery writes are simulator-backed. Its Shopify and ShipStation integrations are intentionally read-only.
 
-## ↗ Graduate Study Direction
+## ↗ Master's Study Direction
 
 I am currently preparing for Master's applications in Software Engineering and related areas while strengthening my academic and engineering foundations.
 
