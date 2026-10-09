@@ -132,14 +132,9 @@ A C++17 command-line shell and process manager built to apply operating-system a
 
 ## ↗ Master's Study Direction
 
-I am currently preparing for **Master's applications for the 2027 intake** in Software Engineering and systems-related areas.
+I am especially interested in **Reliable Distributed Systems, Cloud & Networked Systems, Systems Software, Software Reliability, and AI for Software Engineering**.
 
-**Research interests**
-
-`Reliable Distributed Systems` · `Cloud & Networked Systems` · `Systems Software`  
-`Software Reliability` · `AI for Software Engineering`
-
-I am particularly interested in building software systems that remain **reliable, recoverable, and understandable** as they become more distributed and intelligent.
+My goal is to continue developing these areas through graduate study, research, and practical systems engineering.
 
 ## ◇ Education
 
