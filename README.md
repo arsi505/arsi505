@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Backend Systems · Real-Time Software · Software Reliability
+  Reliable Systems · Distributed Software · AI for Software Engineering
 </p>
 
 <p align="center">
@@ -18,9 +18,11 @@
 
 ## ◇ About Me
 
-I build software systems to explore real engineering problems in concurrency, systems programming, backend architecture, and reliability.
+I am a Software Engineering undergraduate at **Sichuan University**, expected to graduate in **June 2027**. My interests are centered on reliable software systems, distributed computing, software reliability, systems software, and AI for Software Engineering.
 
-I am also strengthening my academic foundations in preparation for Master's study.
+Through projects such as **RepoRAG, Reloop, RealTimeCollab, and ArsiShell**, I am strengthening my practical understanding of distributed coordination, failure recovery, concurrency, process management, and repository-level code intelligence.
+
+I am currently preparing for **Master's study for the 2027 intake** and exploring graduate opportunities where I can further develop my research and engineering skills in these areas.
 
 ## ◇ Core Skills
 
@@ -28,55 +30,39 @@ I am also strengthening my academic foundations in preparation for Master's stud
 | --- | --- |
 | **Languages** | `TypeScript` · `C++` · `Python` |
 | **Software Engineering** | Backend Development · REST APIs · Database Design · Authentication & Authorization · Real-Time Systems · Automated Testing |
-| **Technologies** | `Node.js` · `NestJS` · `Next.js` · `PostgreSQL` · `Prisma` · `Redis` · `Socket.IO` |
+| **Systems** | Distributed Coordination · Reliability Patterns · Concurrency · Failure Recovery · Process Management |
+| **AI & Retrieval** | RAG Systems · Vector Retrieval · BM25 · Hybrid Search · Reranking · Grounded LLM Generation |
+| **Technologies** | `Node.js` · `NestJS` · `Next.js` · `FastAPI` · `PostgreSQL` · `Prisma` · `Redis` · `Socket.IO` |
 
 ## ◆ Featured Engineering Projects
 
-### 01 / RealTimeCollab
+### 01 / RepoRAG
 
-**Real-time collaboration with durable shared state**
+**Repository-aware AI code assistant**
 
-A full-stack collaborative workspace built to explore consistent shared state, concurrent editing, and real-time coordination.
+An AI-for-Software-Engineering project for asking questions about software repositories and receiving grounded answers backed by exact source evidence.
 
-[View Repository →](https://github.com/arsi505/RealTimeCollab)
-
-**Key Engineering Work**
-
-- Uses REST for state changes, PostgreSQL and Prisma for durable data, and Socket.IO for committed-update notifications.
-- Protects document edits with version-based optimistic concurrency control and explicit conflict responses.
-- Tracks distributed, multi-tab presence through Redis and supports cross-instance Socket.IO fan-out.
-- Provides JWT authentication, Argon2 password hashing, workspace roles, rooms, documents, comments, and transactional activity history.
-- Includes unit and end-to-end tests for access control, concurrency, real-time synchronization, presence, and multi-server behavior.
-
-**Stack:** `TypeScript` · `Next.js` · `React` · `NestJS` · `PostgreSQL` · `Prisma` · `Redis` · `Socket.IO` · `Vitest`
-
-**Engineering focus:** Real-time systems, concurrency control, authorization, transactional consistency, reconnect and resynchronization
-
----
-
-### 02 / ArsiShell
-
-**Process execution, IPC, and shell mechanics in C++**
-
-A C++17 command-line shell and process manager built to apply operating-system and systems-programming concepts.
-
-[View Repository →](https://github.com/arsi505/ArsiShell)
+[View Repository →](https://github.com/arsi505/RepoRAG)
 
 **Key Engineering Work**
 
-- Implements a staged tokenizer and parser with quoted arguments and syntax validation.
-- Supports multi-stage pipelines plus input, overwrite, and append redirection.
-- Runs foreground and background processes and tracks pipeline jobs with `jobs`, `fg`, `bg`, and `kill`.
-- Persists command history and supports `!!` and `!n` expansion across sessions.
-- Provides Win32 and POSIX execution paths; the automated runtime and handle-cleanup tests target Windows 11.
+- Built ingestion for local Git repositories and public GitHub repositories with reproducible repository metadata.
+- Implemented structural code-aware chunking with deterministic fallback coverage.
+- Supports Vector semantic retrieval, BM25 lexical retrieval, Hybrid Vector + BM25 retrieval using Reciprocal Rank Fusion, and optional cross-encoder reranking.
+- Added evidence scoping for **All**, **Code**, and **Docs** to control the context supplied to the generation layer.
+- Generates grounded repository answers with file-, symbol-, and line-level source evidence plus citation validation.
+- Integrates **DeepSeek, Gemini, and OpenAI** through a shared generation interface.
+- Provides a local **FastAPI** backend and responsive **Next.js + TypeScript** interface with expandable source-code evidence.
+- Improved large-repository support through adaptive embedding batching and reusable local indexes.
+- Released as **RepoRAG v1.0.0** with automated tests, documentation, screenshots, and an MIT license.
 
-**Stack:** `C++17` · `CMake` · `Win32 APIs` · `POSIX process APIs` · `Python test harnesses`
+**Stack:** `Python` · `FastAPI` · `Tree-sitter` · `PyTorch` · `Sentence Transformers` · `NumPy` · `Next.js` · `React` · `TypeScript`
 
-**Engineering focus:** Process creation, IPC, file descriptors and handles, parsing, job management, resource cleanup
+**Engineering focus:** AI for Software Engineering, repository understanding, information retrieval, hybrid search, grounded generation, reproducibility
 
 ---
 
-### 03 / Reloop
+### 02 / Reloop
 
 **Failure-aware workflows for cross-system consistency**
 
@@ -94,24 +80,70 @@ A reliability and recovery system for detecting and handling inconsistent order 
 
 **Stack:** `TypeScript` · `Node.js` · `NestJS` · `Next.js` · `React` · `PostgreSQL` · `Prisma` · `Redis Streams` · `Socket.IO` · `Jest`
 
-**Engineering focus:** Reliability patterns, idempotency, distributed work coordination, recovery workflows, tenant isolation, observability
+**Engineering focus:** Software reliability, idempotency, distributed work coordination, recovery workflows, tenant isolation, observability
 
 > **Note:** Reloop's V1 recovery writes are simulator-backed. Its Shopify and ShipStation integrations are intentionally read-only.
 
+---
+
+### 03 / RealTimeCollab
+
+**Real-time collaboration with durable shared state**
+
+A full-stack collaborative workspace built to explore consistent shared state, concurrent editing, and real-time coordination.
+
+[View Repository →](https://github.com/arsi505/RealTimeCollab)
+
+**Key Engineering Work**
+
+- Uses REST for state changes, PostgreSQL and Prisma for durable data, and Socket.IO for committed-update notifications.
+- Protects document edits with version-based optimistic concurrency control and explicit conflict responses.
+- Tracks distributed, multi-tab presence through Redis and supports cross-instance Socket.IO fan-out.
+- Provides JWT authentication, Argon2 password hashing, workspace roles, rooms, documents, comments, and transactional activity history.
+- Handles reconnect and resynchronization by restoring authoritative workspace state after network interruption.
+- Includes automated tests for access control, concurrency, real-time synchronization, presence, and multi-server behavior.
+
+**Stack:** `TypeScript` · `Next.js` · `React` · `NestJS` · `PostgreSQL` · `Prisma` · `Redis` · `Socket.IO` · `Vitest`
+
+**Engineering focus:** Distributed state, real-time systems, concurrency control, authorization, transactional consistency, reconnect and resynchronization
+
+---
+
+### 04 / ArsiShell
+
+**Process execution, IPC, and shell mechanics in C++**
+
+A C++17 command-line shell and process manager built to apply operating-system and systems-programming concepts.
+
+[View Repository →](https://github.com/arsi505/ArsiShell)
+
+**Key Engineering Work**
+
+- Implements a staged tokenizer and parser with quoted arguments and syntax validation.
+- Supports multi-stage pipelines plus input, overwrite, and append redirection.
+- Runs foreground and background processes and tracks pipeline jobs with `jobs`, `fg`, `bg`, and `kill`.
+- Persists command history and supports `!!` and `!n` expansion across sessions.
+- Provides Win32 and POSIX execution paths with explicit process and resource cleanup.
+- Includes automated runtime testing for process and handle behavior.
+
+**Stack:** `C++17` · `CMake` · `Win32 APIs` · `POSIX Process APIs` · `Python Test Harnesses`
+
+**Engineering focus:** Systems programming, process creation, IPC, parsing, job management, resource cleanup
+
 ## ↗ Master's Study Direction
 
-I am currently preparing for Master's applications in Software Engineering and related areas while strengthening my academic and engineering foundations.
+I am currently preparing for **Master's applications for the 2027 intake** in Software Engineering and systems-related areas.
 
-**Academic interests**
+**Research interests**
 
-`Software Architecture` · `Distributed Systems` · `Software Reliability`  
-`Intelligent Software Systems` · `Applied Generative AI`
+`Reliable Distributed Systems` · `Cloud & Networked Systems` · `Systems Software`  
+`Software Reliability` · `AI for Software Engineering`
 
-I am developing these areas through structured study and practical engineering projects.
+I am particularly interested in building software systems that remain **reliable, recoverable, and understandable** as they become more distributed and intelligent.
 
 ## ◇ Education
 
-**Sichuan University**\
-Bachelor's in Software Engineering\
-2023–2027\
+**Sichuan University**  
+Bachelor's in Software Engineering  
+2023–2027 · Expected Graduation: June 2027  
 GPA: **3.23 / 4.00**
