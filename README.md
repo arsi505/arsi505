@@ -141,4 +141,4 @@ My goal is to continue developing these areas through graduate study, research, 
 **Sichuan University**  
 Bachelor's in Software Engineering  
 2023–2027 · Expected Graduation: June 2027  
-GPA: **3.23 / 4.00**
+GPA: **3.19 / 4.00**
